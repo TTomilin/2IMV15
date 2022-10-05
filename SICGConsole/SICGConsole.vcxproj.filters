@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\include">
+      <UniqueIdentifier>{04570e26-3fd8-4cec-877b-31271475a409}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\include\gfx">
+      <UniqueIdentifier>{cac98396-b19c-4371-8c94-f6ec3ebca932}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GL">
+      <UniqueIdentifier>{b87e7de3-dee4-4839-8473-10e32a7890d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\constraints">
+      <UniqueIdentifier>{f7d07c6e-ab89-4599-8ddb-6aee2da372ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\solver">
+      <UniqueIdentifier>{8a93f1ee-5c0f-4458-843b-14c9883cfbd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\integrators">
+      <UniqueIdentifier>{261ecc8f-302f-42ac-b37b-88da76cad1b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\integrators">
+      <UniqueIdentifier>{d6eee10a-0a76-44b5-80b5-5b5256a6670f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\system">
+      <UniqueIdentifier>{1ec4e0a1-b7fe-413e-86ea-2260119f6200}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\system">
+      <UniqueIdentifier>{d6bde01e-a4a8-461f-aac6-973e9f9d76aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\forces">
+      <UniqueIdentifier>{fca127e4-a106-4619-bb58-ea8a95d7828b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\forces">
+      <UniqueIdentifier>{bb58bf91-ae2d-418e-bb54-e542e7de1195}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\constraints">
+      <UniqueIdentifier>{776e777f-fcc4-40c3-8d11-6a463081cc50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gui">
+      <UniqueIdentifier>{c223cc9c-9b0f-4901-b7f0-a2c67ba121d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gui">
+      <UniqueIdentifier>{24d627f2-4366-4335-8b06-a4354c5e520b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\solvers">
+      <UniqueIdentifier>{ef6acaf2-11b8-450d-985a-0bbf42fe8191}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\collisions">
+      <UniqueIdentifier>{cc14a355-a7f5-429c-b318-9fb7b1fb9824}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\collisions">
+      <UniqueIdentifier>{dee2b5d2-20db-4380-b7d6-8f3630496525}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\gfx\config.h">
+      <Filter>Source Files\include\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gfx\geom3d.h">
+      <Filter>Source Files\include\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gfx\geom4d.h">
+      <Filter>Source Files\include\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gfx\gfx.h">
+      <Filter>Source Files\include\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gfx\mat2.h">
+      <Filter>Source Files\include\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gfx\mat3.h">
+      <Filter>Source Files\include\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gfx\mat4.h">
+      <Filter>Source Files\include\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gfx\quat.h">
+      <Filter>Source Files\include\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gfx\symmat2.h">
+      <Filter>Source Files\include\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gfx\symmat3.h">
+      <Filter>Source Files\include\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gfx\symmat4.h">
+      <Filter>Source Files\include\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gfx\vec3.h">
+      <Filter>Source Files\include\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gfx\vec4.h">
+      <Filter>Source Files\include\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gfx\vec2.h">
+      <Filter>Source Files\include\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="GL\fgl.h">
+      <Filter>Source Files\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="GL\fglu.h">
+      <Filter>Source Files\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="GL\fglut.h">
+      <Filter>Source Files\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="GL\glsmap.h">
+      <Filter>Source Files\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="GL\glut.h">
+      <Filter>Source Files\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="GL\tube.h">
+      <Filter>Source Files\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="MidPoint.h">
+      <Filter>Header Files\integrators</Filter>
+    </ClInclude>
+    <ClInclude Include="Euler.h">
+      <Filter>Header Files\integrators</Filter>
+    </ClInclude>
+    <ClInclude Include="RungeKutta.h">
+      <Filter>Header Files\integrators</Filter>
+    </ClInclude>
+    <ClInclude Include="Integrator.h">
+      <Filter>Header Files\integrators</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleToy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit.h">
+      <Filter>Header Files\integrators</Filter>
+    </ClInclude>
+    <ClInclude Include="System.h">
+      <Filter>Header Files\system</Filter>
+    </ClInclude>
+    <ClInclude Include="GravityForce.h">
+      <Filter>Header Files\forces</Filter>
+    </ClInclude>
+    <ClInclude Include="Force.h">
+      <Filter>Header Files\forces</Filter>
+    </ClInclude>
+    <ClInclude Include="CircularWireConstraint.h">
+      <Filter>Header Files\constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="Constraint.h">
+      <Filter>Header Files\constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="RodConstraint.h">
+      <Filter>Header Files\constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="SpringForce.h">
+      <Filter>Header Files\forces</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="linearSolver.h">
+      <Filter>Header Files\solvers</Filter>
+    </ClInclude>
+    <ClInclude Include="Solver.h">
+      <Filter>Header Files\solvers</Filter>
+    </ClInclude>
+    <ClInclude Include="JacobianMatrix.h">
+      <Filter>Header Files\solvers</Filter>
+    </ClInclude>
+    <ClInclude Include="JWJTransposed.h">
+      <Filter>Header Files\solvers</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Header Files\system</Filter>
+    </ClInclude>
+    <ClInclude Include="AngularSpring.h">
+      <Filter>Header Files\forces</Filter>
+    </ClInclude>
+    <ClInclude Include="DragForce.h">
+      <Filter>Header Files\forces</Filter>
+    </ClInclude>
+    <ClInclude Include="RigidBody.h">
+      <Filter>Header Files\system</Filter>
+    </ClInclude>
+    <ClInclude Include="IObject.h">
+      <Filter>Header Files\system</Filter>
+    </ClInclude>
+    <ClInclude Include="collisionDetector.h">
+      <Filter>Header Files\collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="Contact.h">
+      <Filter>Header Files\collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="MatX.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ParticleToy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CircularWireConstraint.cpp">
+      <Filter>Source Files\constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="RodConstraint.cpp">
+      <Filter>Source Files\constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="linearSolver.cpp">
+      <Filter>Source Files\solver</Filter>
+    </ClCompile>
+    <ClCompile Include="Solver.cpp">
+      <Filter>Source Files\solver</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler.cpp">
+      <Filter>Source Files\integrators</Filter>
+    </ClCompile>
+    <ClCompile Include="MidPoint.cpp">
+      <Filter>Source Files\integrators</Filter>
+    </ClCompile>
+    <ClCompile Include="RungeKutta.cpp">
+      <Filter>Source Files\integrators</Filter>
+    </ClCompile>
+    <ClCompile Include="Integrator.cpp">
+      <Filter>Source Files\integrators</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit.cpp">
+      <Filter>Source Files\integrators</Filter>
+    </ClCompile>
+    <ClCompile Include="System.cpp">
+      <Filter>Source Files\system</Filter>
+    </ClCompile>
+    <ClCompile Include="GravityForce.cpp">
+      <Filter>Source Files\forces</Filter>
+    </ClCompile>
+    <ClCompile Include="SpringForce.cpp">
+      <Filter>Source Files\forces</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="JacobianMatrix.cpp">
+      <Filter>Source Files\solver</Filter>
+    </ClCompile>
+    <ClCompile Include="JWJTransposed.cpp">
+      <Filter>Source Files\solver</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="SICGConsole.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Source Files\system</Filter>
+    </ClCompile>
+    <ClCompile Include="AngularSpring.cpp">
+      <Filter>Source Files\forces</Filter>
+    </ClCompile>
+    <ClCompile Include="DragForce.cpp">
+      <Filter>Source Files\forces</Filter>
+    </ClCompile>
+    <ClCompile Include="RigidBody.cpp">
+      <Filter>Source Files\system</Filter>
+    </ClCompile>
+    <ClCompile Include="collisionDetector.cpp">
+      <Filter>Source Files\collisions</Filter>
+    </ClCompile>
+    <ClCompile Include="MatX.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\glut32.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\README.md" />
+  </ItemGroup>
+</Project>
